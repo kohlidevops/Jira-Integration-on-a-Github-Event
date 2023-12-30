@@ -52,10 +52,18 @@ https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-projects/#
 
 Open Github code space and create a project and start work on it.
 
-Replace the URL in the python code with your atlassian name
+Replace the URL, email-id and API token in the python code with your atlassian name
 
 ```
 url = "https://slakshminarayanan.atlassian.net/rest/api/3/project"
+```
+
+You can use below link to get updated python code
+
+```
+https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/blob/main/list-all-projects-from-jira
+```
+
 
 
 
