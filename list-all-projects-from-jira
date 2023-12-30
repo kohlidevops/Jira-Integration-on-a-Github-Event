@@ -20,4 +20,7 @@ response = requests.request(
    auth=auth
 )
 
-print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",", ": ")))
+#print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",", ": ")))
+output = json.loads(response.text)
+name = output[1]["name"]
+print(name)
