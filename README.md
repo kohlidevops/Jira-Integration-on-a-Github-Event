@@ -64,6 +64,10 @@ You can use below link to get updated python code
 https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/blob/main/list-all-projects-from-jira
 ```
 
+### Create a Issue in Jira using python code
+
+You can get this code using below link
+
 
 
 
