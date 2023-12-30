@@ -86,7 +86,31 @@ JIRA - myapp (project) - Backlog - you can see the new issue has been created.
 
 ![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/f4ec961b-460a-495d-a2f6-624056e10d52)
 
-1. What is API?
-2. 
+Launch ubuntu EC2 instance with t2.micro and SSH into machine.
+
+Install below commands to make ready state - Python3 has been installed already on ubuntu22
+
+```
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install pip -y
+pip3 install flask
+```
+
+create a hello-world application
+
+You can use below link to run the application
+
+```
+python3 hello-world.py
+```
+
+![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/82f2eaf6-0907-472a-a072-5c172db4f731)
+
+It has been running!
+
+![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/22091b20-b49c-44e1-b510-c2784301e33c)
+
+
 
 
