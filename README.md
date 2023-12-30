@@ -102,6 +102,12 @@ create a hello-world application
 You can use below link to run the application
 
 ```
+https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/blob/main/hello-world.py
+```
+
+Now you can run this application
+
+```
 python3 hello-world.py
 ```
 
