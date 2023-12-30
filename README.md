@@ -82,6 +82,11 @@ JIRA - myapp (project) - Backlog - you can see the new issue has been created.
 
 ![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/769d612d-7f82-4ee4-a84c-38a5d97ddae5)
 
+## JIRA and Github Integration
 
+![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/f4ec961b-460a-495d-a2f6-624056e10d52)
+
+1. What is API?
+2. 
 
 
