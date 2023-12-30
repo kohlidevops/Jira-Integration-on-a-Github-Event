@@ -68,6 +68,20 @@ https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/blob/main/list
 
 You can get this code using below link
 
+```
+https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/blob/main/create_issue.py
+```
+
+Now go to github code space and create new file and copy paste this code and run it again.
+
+![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/2292737f-8a9f-4ac9-bb5f-d1add4d399d4)
+
+Perfect! Its running. Now I had a quick look at the JIRA
+
+JIRA - myapp (project) - Backlog - you can see the new issue has been created.
+
+![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/769d612d-7f82-4ee4-a84c-38a5d97ddae5)
+
 
 
 
