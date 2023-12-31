@@ -119,7 +119,13 @@ It has been running!
 
 ### To run JIRA flask application
 
-To update the code and run the flask application using below code
+To update the code and run the flask application using below code or using below link to update the code.
+
+```
+https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/blob/main/github-jira.py
+```
+
+#### Raw code
 
 ```
 from flask import Flask
