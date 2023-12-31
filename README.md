@@ -128,7 +128,7 @@ from requests.auth import HTTPBasicAuth
 import json
 
 app = Flask(__name__)
-@app.route('/createJIRA', methods=['POST'])
+@app.route('/createjira', methods=['POST'])
 def createJIRA():
 
 
@@ -183,4 +183,42 @@ if __name__ == '__main__':
     app.run("0.0.0.0", port=5000)
 ```
 
+### To create a Github webhooks for flask application
 
+Github -kohlidevops/Jira-Integration-on-a-Github-Event - Settings - Webhooks - Add Webhook
+
+```
+payload url - http://ec2-13-127-94-143.ap-south-1.compute.amazonaws.com:5000/createjira
+content type - application/json
+choose - Let me select individual events - Issue comments - Add webhook
+```
+
+![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/a242129a-dbb9-45c1-9e44-9cf95a53a2e6)
+
+#### Make ensure you have added API token and Http auth in github-jira.py file
+
+#### I have updated webhook as createjira
+
+After adding webhook you can refer the manage webhook to ensure whether its ping or not
+
+![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/5e60e7f2-4cf4-4772-b2ec-9799c1baed11)
+
+### To create an Issue
+
+Navigate to github 
+```
+https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event
+```
+Create an Issue - Submit new issues
+
+### To create an comment
+
+Navigate to the respective issues and comment it to ensure this Issues has been sent to jira.
+
+![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/5336dd1f-cdca-4b66-83c6-4f5a4f5d79de)
+
+Perfect! Jira ticket has been created. Just check with Atlassian Jira - Projects - myapp - Backlog
+
+![image](https://github.com/kohlidevops/Jira-Integration-on-a-Github-Event/assets/100069489/cc5150a8-75c5-40a9-b3d6-aa8a0ce3000e)
+
+That's it!
